@@ -10,10 +10,10 @@ let shopList = ['Mele','pere','pasta','sugo','basilico','zucchero','cannella','c
 let i = 0
 // creo ciclo while per stampare singolarmente gli elementi della lista shopList
 while(i < shopList.length){
-    console.log(shopList[i])
-    const bodySelector = document.querySelector('body')
-    const p=document.createElement('p')
-    bodySelector.appendChild(p)
-    p.textContent=shopList[i]
-    i++
+    console.log(shopList[i]) // stampo(in console) elementi singolarmente della lista shopList
+    const bodySelector = document.querySelector('body') // seleziono il tag body nel dom
+    const p=document.createElement('p') // creo nel dom il tag p
+    bodySelector.appendChild(p) // inserisco il tag p come figlio di body
+    p.textContent=shopList[i] // nel tag p inserisco i contenuti della lista
+    i++ // condizione di uscita dal ciclo
 }
