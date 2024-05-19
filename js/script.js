@@ -17,3 +17,18 @@ while(i < shopList.length){
     p.textContent=shopList[i] // nel tag p inserisco i contenuti della lista
     i++ // condizione di uscita dal ciclo
 }
+
+// Risoluzione esercizio stampando una lista con tag li nel dom
+
+// const bodySelector = document.querySelector('body')
+// const section=document.createElement('section')
+// const ul=document.createElement('ul')
+// bodySelector.appendChild(section)
+// section.appendChild(ul)
+// while(i < shopList.length){
+//     console.log(shopList[i])
+//     const li=document.createElement('li')
+//     ul.appendChild(li)
+//     li.textContent=shopList[i]
+//     i++
+// }
